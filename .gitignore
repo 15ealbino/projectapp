@@ -1,0 +1,8 @@
+.vscode 
+package.json
+package-lock.json
+Pipfile
+Pipfile.lock
+/node_modules
+projectapp/db.sqlite3
+__pycache__

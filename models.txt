@@ -1,0 +1,47 @@
+UserLogin: {
+    Django User Login
+}
+
+UserInformation: {
+    id,
+    name,
+    email,
+    picture,
+    aboutme,
+    project_List,
+    Tags,
+    Interest
+}
+
+Project: {
+    id,
+    name,
+    description,
+    repo link,
+    Users(Foreign)
+    Tags
+}
+
+
+Tags:{
+    id,
+    name
+}
+
+
+ProjectMessageBox: {
+    id,
+    Project(ForeignKey)
+    message,
+    timeCreated
+}
+
+Projectbacklog: {
+    id, 
+    Project(ForeignKey),
+    BacklogItemMessage,
+
+}
+
+
+
