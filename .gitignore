@@ -1,5 +1,4 @@
 .vscode 
-package.json
 package-lock.json
 Pipfile
 Pipfile.lock
